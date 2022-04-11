@@ -4,9 +4,9 @@
 #
 Name     : pypi-dill
 Version  : 0.3.4
-Release  : 13
-URL      : https://files.pythonhosted.org/packages/57/b7/c4aa04a27040e6a3b09f5a652976ead00b66504c014425a7aad887aa8d7f/dill-0.3.4.zip
-Source0  : https://files.pythonhosted.org/packages/57/b7/c4aa04a27040e6a3b09f5a652976ead00b66504c014425a7aad887aa8d7f/dill-0.3.4.zip
+Release  : 14
+URL      : https://github.com/uqfoundation/dill/releases/download/dill-0.3.4/dill-0.3.4.tar.gz
+Source0  : https://github.com/uqfoundation/dill/releases/download/dill-0.3.4/dill-0.3.4.tar.gz
 Summary  : serialize all of python
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -15,14 +15,11 @@ Requires: pypi-dill-license = %{version}-%{release}
 Requires: pypi-dill-python = %{version}-%{release}
 Requires: pypi-dill-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: dill
-Provides: dill-python
-Provides: dill-python3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi(py)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 -----------------------------
@@ -74,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641432137
+export SOURCE_DATE_EPOCH=1649694554
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

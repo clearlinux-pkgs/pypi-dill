@@ -1,5 +1,5 @@
 PKG_NAME := pypi-dill
-URL = https://files.pythonhosted.org/packages/57/b7/c4aa04a27040e6a3b09f5a652976ead00b66504c014425a7aad887aa8d7f/dill-0.3.4.zip
+URL = https://github.com/uqfoundation/dill/releases/download/dill-0.3.4/dill-0.3.4.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
