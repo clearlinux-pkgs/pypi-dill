@@ -4,7 +4,7 @@
 #
 Name     : pypi-dill
 Version  : 0.3.5.1
-Release  : 18
+Release  : 19
 URL      : https://github.com/uqfoundation/dill/releases/download/dill-0.3.5.1/dill-0.3.5.1.tar.gz
 Source0  : https://github.com/uqfoundation/dill/releases/download/dill-0.3.5.1/dill-0.3.5.1.tar.gz
 Summary  : serialize all of python
@@ -81,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656373755
+export SOURCE_DATE_EPOCH=1656408009
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
