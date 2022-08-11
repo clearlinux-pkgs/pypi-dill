@@ -4,7 +4,7 @@
 #
 Name     : pypi-dill
 Version  : 0.3.5.1
-Release  : 19
+Release  : 20
 URL      : https://github.com/uqfoundation/dill/releases/download/dill-0.3.5.1/dill-0.3.5.1.tar.gz
 Source0  : https://github.com/uqfoundation/dill/releases/download/dill-0.3.5.1/dill-0.3.5.1.tar.gz
 Summary  : serialize all of python
